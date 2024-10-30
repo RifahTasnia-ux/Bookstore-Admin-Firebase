@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background2"
+
+    tools:context=".HomeActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Upload Books"
+        android:textSize="40sp"
+        android:textColor="#CBFFEB3B"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/btneducational"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Educational Books"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_shape"
+        android:layout_margin="5dp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <Button
+        android:id="@+id/btnnonfiction"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Non Fictions"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_shape"
+        android:layout_margin="5dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <Button
+        android:id="@+id/btnfiction"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Fictions/Novels"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_shape"
+        android:layout_margin="5dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <Button
+        android:id="@+id/btnchildren"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Children's Books"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_shape"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
